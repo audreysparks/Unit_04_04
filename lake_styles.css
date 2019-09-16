@@ -1,0 +1,109 @@
+﻿@/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Audrey Sparks
+   Date:   September 16, 2019
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+@font-face{
+   font-family: Champagne;
+   src: url(cac_champagne.ttf)format('ttf'),
+   url(cac_champagne.woff) format('woff'),
+   url(cac_champagne.woff2) format('woff2');
+}
+@font-face{
+   font-family: DobkinPlain;
+   src: url(DobkinPlain.ttf)format('ttf'),
+   url(DobkinPlain.woff) format('woff'),
+   url(DobkinPlain.woff2) format('woff2');
+}
+/* Structural Styles */
+html{
+   background-color: rgb(227,210,173);
+}
+ body{
+    background-color: rgb(219, 189, 125);
+    font-family: 'Champagne' , 'DobkinPlain'
+ }
+
+ body>p{
+   font-size: 1.1em;
+   text-align:center;
+}
+ footer {
+    background-color:grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: 'normal' 
+ }
+ address{
+    font: normal;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+ }
+
+ h1{
+    color: black;
+    font-size: 3em;
+    font: 'DobkinPlain'; 
+    text-align: left
+ }
+ /* Navigation Styles */
+nav a:link, nav a:visited{
+   color: white;
+   
+}
+nav a:link {
+   text-decoration: none;
+   font: normal
+ }
+ nav a{
+    background-color: rgb(45, 34, 56);
+    padding-top: 12px;
+    padding-bottom: 12px
+ }
+ nav a:hover, nav a:active{
+   opacity: 0.8;
+   background-color: rgba(129, 99, 99, 0.5);
+   color: white;
+   font: 'normal'
+}
+li a{
+   padding-top: 3px;
+   padding-bottom: 3px; 
+}
+li a{
+   color: black
+}
+section#rightcol {
+   background-color: rgb(209, 184, 209);
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+aside{
+   background-color: salmon;
+   font-size: .9em;
+   font:'DobkinPlain';
+   text-align: center
+}
+
+aside{
+   text-align: center;
+}
+
+
+#leftcol{
+   background-color: rgb(218, 209, 185);
+   font-size: .9em;
+   font: 'DobkinPlain'
+
+}
