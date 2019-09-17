@@ -56,6 +56,10 @@ html{
     font: 'DobkinPlain'; 
     text-align: left
  }
+/* These elements set up the structure
+ of the page to make it have the titles to be a certain
+  weight and color. */
+
  /* Navigation Styles */
 nav a:link, nav a:visited{
    color: white;
@@ -83,16 +87,26 @@ li a{
 li a{
    color: black
 }
+/* These elements made the nav bar be a certain color
+ while viewing
+ it and a certain color when you press it. */
+
+/* Section Styles */
 section#rightcol {
    background-color: rgb(209, 184, 209);
    padding-top: 50px;
    padding-bottom: 50px;
 }
+section#p:first-of-type::first-line{
+   font-size: 2em;
+   vertical-align: baseline
+}
+/* These elements were to make
+ the section a certain size and color. */
 
-aside{
+/* Aside Styles */
+aside#left{
    background-color: salmon;
-   font-size: .9em;
-   font:'DobkinPlain';
    text-align: center
 }
 
@@ -107,3 +121,9 @@ aside{
    font: 'DobkinPlain'
 
 }
+aside#right{
+   background-color: rgb(255, 255, 174);
+   text-align: center
+}
+
+/* These elements were to make the aside a certain size. */
